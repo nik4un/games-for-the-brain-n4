@@ -2,9 +2,6 @@
   "name": "games-for-the-brain-n4",
   "version": "0.0.1",
   "description": "A simple games for the console",
-  "main": ,
-  "bin": {
-  },
   "engines": {
     "node": "8"
   },
@@ -19,20 +16,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/"
+    "url": "git+https://github.com/nik4un/games-for-the-brain-n4.git"
   },
   "keywords": [
     "brain",
     "games"
   ],
   "author": "Nikolay Chunev",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url":
+    "url": "https://git+github.com/nik4un/games-for-the-brain-n4/issues"
   },
-  "homepage": "https://github.com/",
-  "dependencies": {
-  },
+  "homepage": "https://github.com/nik4un/games-for-the-brain-n4#readme",
+  "dependencies": {},
   "devDependencies": {
     "babel-cli": "*",
     "babel-core": "*",
@@ -42,12 +38,11 @@
     "babel-preset-flow": "*",
     "babel-preset-stage-0": "*",
     "debug": "*",
-    "eslint": "^4.10.0",
+    "eslint": "^4.11.0",
     "eslint-config-airbnb-base": "*",
     "eslint-plugin-flowtype": "*",
     "eslint-plugin-import": "*",
-    "eslint-plugin-jest": ,
-    "flow-bin": "^0.57",
-    "flow-typed": "*",
+    "flow-bin": "*",
+    "flow-typed": "*"
   }
 }
