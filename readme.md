@@ -1,3 +1,12 @@
 # Games for the brain
-
 #### A simple command line games
+## List of games
+#### Brain-even: «Parity checking»
+The essence of the game is this: the player is shown a random number. And he needs to answer **yes** if the digit is even, or **no** if is odd.
+Any incorrect entry is an error, for example, **n** equivalent to a wrong answer.
+## Installation
+```npm i brain-games-i_o -g```
+## Start games:
+``` brain-games ```
+## Start brain-even:
+```games-for-the-brain-n4```
