@@ -1,6 +1,6 @@
 {
   "name": "games-for-the-brain-n4",
-  "version": "0.1.1",
+  "version": "0.2.1",
   "description": "A simple games for the console",
   "engines": {
     "node": "8"
@@ -8,6 +8,10 @@
   "files": [
     "dist"
   ],
+  "bin": {
+    "brain-games": "dist/bin/brain-games.js",
+    "brain-even": "dist/bin/brain-even.js"
+  },
   "scripts": {
     "babel-node": "babel-node",
     "eslint": "eslint",
@@ -20,7 +24,9 @@
   },
   "keywords": [
     "brain",
-    "games"
+    "games",
+    "brain games",
+    "games for the brain"
   ],
   "author": "Nikolay Chunev",
   "license": "MIT",
