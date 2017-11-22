@@ -20,7 +20,7 @@ export const gameProcess = (game, rule, userName) => {
     if (gameState.correctAnswer === playerResponse.toLowerCase()) {
       console.log('Correct!\n'.green);
       if (count === 1) {
-        console.log(`Congratulations, ${userName}! \n`.green);
+        console.log(`All right! Congratulations, ${userName}! \n`.cyan);
         return;
       }
       replayGame(count - 1);

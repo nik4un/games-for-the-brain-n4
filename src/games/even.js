@@ -11,4 +11,3 @@ const evenGame = () => {
 
 const evenBrainGame = userName => gameProcess(evenGame, rule, userName);
 export default evenBrainGame;
-// gameProcess(evenGame, rule, 'Nik');

@@ -31,4 +31,3 @@ const calcGame = () => {
 
 const calcBrainGame = userName => gameProcess(calcGame, rule, userName);
 export default calcBrainGame;
-// gameProcess(calcGame, rule, 'Nik');
