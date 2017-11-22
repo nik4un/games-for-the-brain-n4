@@ -10,8 +10,8 @@ build:
 	rm -rf dist
 	npm run build
 
-start:
-	npm run babel-node -- dist/bin/brain-even.js
+go:
+	npm run babel-node -- src/bin/brain-games.js
 
 check-types:
 	npm run flow

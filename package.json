@@ -1,7 +1,8 @@
 {
   "name": "games-for-the-brain-n4",
-  "version": "0.2.1",
+  "version": "0.3.2",
   "description": "A simple games for the console",
+  "main": "dist/index.js",
   "engines": {
     "node": "8"
   },
@@ -35,6 +36,7 @@
   },
   "homepage": "https://github.com/nik4un/games-for-the-brain-n4#readme",
   "dependencies": {
+    "colors": "^1.1.2",
     "readline-sync": "^1.4.7"
   },
   "devDependencies": {
