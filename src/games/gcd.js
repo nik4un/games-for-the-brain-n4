@@ -13,4 +13,3 @@ const gcdGame = () => {
 
 const gcdBrainGame = userName => gameProcess(gcdGame, rule, userName);
 export default gcdBrainGame;
-// gameProcess(gcdGame, rule, 'Nik');
