@@ -1,4 +1,10 @@
 // Возвращает случайное целое число между min (включительно) и max (не включая max)
 export const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min)) + min;
 
-// console.log(getRandomInt(2, 3));
+// Возвращает наибольший общий делитель двух целых чисел
+export const getGcd = (first, second) => {
+  const absA = Math.abs(first);
+  const absB = Math.abs(second);
+  const calcGcd = (a, b) => (b === 0 ? a : getGcd(b, (a % b)));
+  return calcGcd(absA, absB);
+};
