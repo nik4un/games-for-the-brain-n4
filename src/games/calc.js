@@ -6,26 +6,25 @@ const rule = 'What is the result of the expression?';
 const calcGame = () => {
   const exprArgFirst = getRandomInt(1, 12);
   const exprArgSecond = getRandomInt(1, 12);
-  let quest;
+  const operator = ['+', '-', '*'][getRandomInt(0, 3)];
+  const quest = `${exprArgFirst} ${operator} ${exprArgSecond}`;
   let correctAnswer;
-  switch (getRandomInt(1, 4)) {
-    case 1: {
-      quest = `${exprArgFirst} + ${exprArgSecond}`;
-      correctAnswer = (exprArgFirst + exprArgSecond).toString();
+  switch (operator) {
+    case '+': {
+      correctAnswer = exprArgFirst + exprArgSecond;
       break;
     }
-    case 2: {
-      quest = `${exprArgFirst} - ${exprArgSecond}`;
-      correctAnswer = (exprArgFirst - exprArgSecond).toString();
+    case '-': {
+      correctAnswer = exprArgFirst - exprArgSecond;
       break;
     }
-    case 3: {
-      quest = `${exprArgFirst} * ${exprArgSecond}`;
-      correctAnswer = (exprArgFirst * exprArgSecond).toString();
+    case '*': {
+      correctAnswer = exprArgFirst * exprArgSecond;
       break;
     }
     default: console.log('strange error');
   }
+  correctAnswer = correctAnswer.toString();
   return { quest, correctAnswer };
 };
 
