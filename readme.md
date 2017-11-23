@@ -1,5 +1,6 @@
 # Games for the brain
-##### A simple command line games is made in the form of a npm package
+
+##### A simple command line games is made in the form of a npm packagegit
 [![npm](https://img.shields.io/npm/v/games-for-the-brain-n4.svg)](https://www.npmjs.com/package/games-for-the-brain-n4) [![Code Climate](https://codeclimate.com/github/nik4un/games-for-the-brain-n4/badges/gpa.svg)](https://codeclimate.com/github/nik4un/games-for-the-brain-n4) [![Issue Count](https://codeclimate.com/github/nik4un/games-for-the-brain-n4/badges/issue_count.svg)](https://codeclimate.com/github/nik4un/games-for-the-brain-n4) [![Build Status](https://travis-ci.org/nik4un/games-for-the-brain-n4.svg?branch=master)](https://travis-ci.org/nik4un/games-for-the-brain-n4)
 ## List of games
 #### Brain-even: «Parity checking»
