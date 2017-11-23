@@ -1,5 +1,6 @@
 # Games for the brain
 #### A simple command line games
+[![Build Status](https://travis-ci.org/nik4un/games-for-the-brain-n4.svg?branch=master)](https://travis-ci.org/nik4un/games-for-the-brain-n4)
 ## List of games
 #### Brain-even: «Parity checking»
 The essence of the game is this: the player is shown a random number. And he needs to answer **yes** if the digit is even, or **no** if is odd.
