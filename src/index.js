@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import colors from 'colors';
+import colors from 'colors'; // eslint-disable-line
 
 const replayNumber = 3;
 
