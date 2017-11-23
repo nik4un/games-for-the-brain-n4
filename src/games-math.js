@@ -16,3 +16,12 @@ export const getBalance = (min, max) => {
   }
   return { min, max };
 };
+
+// Возвращает «true», если число является простым и «false», если составным
+export const isPrime = (num) => {
+  if (num === 1) { return false; }
+  for (let i = 2; i * i <= num; i += 1) {
+    if (num % i === 0) { return false; }
+  }
+  return true;
+};
