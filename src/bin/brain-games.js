@@ -9,9 +9,15 @@ import progressionGameBrainGame from '../games/progression';
 import primeGameBrainGame from '../games/prime';
 
 const userName = welcome();
-evenBrainGame(userName);
-calcBrainGame(userName);
-gcdBrainGame(userName);
-balanceBrainGame(userName);
-progressionGameBrainGame(userName);
-primeGameBrainGame(userName);
+
+const games = [
+  evenBrainGame,
+  calcBrainGame,
+  gcdBrainGame,
+  balanceBrainGame,
+  progressionGameBrainGame,
+  primeGameBrainGame,
+];
+
+games.sort(() => Math.random() - 0.5);
+games.forEach(el => el(userName));
