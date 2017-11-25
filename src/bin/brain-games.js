@@ -20,4 +20,4 @@ const games = [
 ];
 
 games.sort(() => Math.random() - 0.5);
-games.forEach(el => el(userName));
+games.map(el => el(userName));
