@@ -1,6 +1,6 @@
 {
   "name": "games-for-the-brain-n4",
-  "version": "0.6.4",
+  "version": "0.6.5",
   "description": "A simple games for the console",
   "main": "dist/index.js",
   "engines": {
